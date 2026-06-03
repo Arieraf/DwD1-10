@@ -1,13 +1,11 @@
 body{   
     background-color: gray;
-    font-family: monospace;
     font-size: 16px;
     margin: 0px;
 }
 
 header{
     background-color: lightsalmon;
-    color: white;
     position: relative;
     padding: 10px;
 
@@ -32,14 +30,14 @@ article{
     margin: 20px auto;
     padding: 20px;
 
-    border: 2px solid white;
+    border: 5px solid black;
 }
 
 section{
     margin-bottom: 20px;
     padding: 15px;
     
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 footer{
@@ -61,12 +59,14 @@ footer{
 }
 
 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
     color: blue;
 }
 
 h2{
     font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -83,8 +83,3 @@ p{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.box{
-    margin: 20px;
-    padding: 15px;
-    border: 2px solid black;
-}
