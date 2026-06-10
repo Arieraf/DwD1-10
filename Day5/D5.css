@@ -1,0 +1,45 @@
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+input{
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+h2{
+    color: white;
+}
+
+header{
+    background-color: blue;
+     width: 300px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.average{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
