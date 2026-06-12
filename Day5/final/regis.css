@@ -1,56 +1,52 @@
-.container {
-    display: flex;
-    justify-content: center; /* tengah horizontal */
-    align-items: center;     /* tengah vertikal */
-
-    height: 100vh; /* tinggi layar */
-}
-
-form {
-    width: 350px;
-}
-
 body {
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
-    margin: 0;
+    background-color: oklab(72.06% 0.00751 -0.1416);
 }
 
-
-
-nav {
+.container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-nav a {
-    color: white;
-    margin-right: 15px;
-    padding: 10px 0px;
-}
+.card {
+    width: 350px;
 
-main {
-    margin-left: 240px;
+    background-color: white;
+
     padding: 20px;
+
+    border: 1px solid #ccc;
 }
 
-.card,{
-    background: white;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 8px;
+.card h2 {
+    text-align: center;
 }
 
-input,
-textarea {
+input {
     width: 100%;
-    padding: 10px;
+
+    padding: 8px;
+
     margin-top: 10px;
     margin-bottom: 10px;
-    box-sizing: border-box;
 }
 
 button {
-    padding: 10px 20px;
+    width: 100%;
 
+    padding: 10px;
+
+    background-color: blue;
+    color: white;
+
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.card p {
+    text-align: center;
 }
