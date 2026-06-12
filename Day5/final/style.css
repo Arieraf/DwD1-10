@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    justify-content: center; /* tengah horizontal */
+    align-items: center;     /* tengah vertikal */
+
+    height: 100vh; /* tinggi layar */
+}
+
+form {
+    width: 350px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 220px;
+    height: 100vh;
+
+    background-color: #1877f2;
+    color: white;
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    padding: 10px 0px;
+}
+
+main {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+.card,
+.create-post,
+.post {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+input,
+textarea {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+#errorText {
+    color: red;
+}
+
+.post-header {
+    font-weight: bold;
+}
+
+.profile-container {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+.profil-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.profil-img {
+    width: 100px;
+    height: 100px;
+
+    max-width: 100px;
+    max-height: 100px;
+
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profil-content{
+    width: 50%;
+}
+
+.user-posts {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.post-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.timestamp {
+    color: gray;
+    font-size: 12px;
+}

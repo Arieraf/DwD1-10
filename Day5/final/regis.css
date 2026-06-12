@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    justify-content: center; /* tengah horizontal */
+    align-items: center;     /* tengah vertikal */
+
+    height: 100vh; /* tinggi layar */
+}
+
+form {
+    width: 350px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    padding: 10px 0px;
+}
+
+main {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+.card,{
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+
+}
